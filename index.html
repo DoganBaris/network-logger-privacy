@@ -1,9 +1,102 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Benim GitHub Sitesi</title>
-  </head>
-  <body>
-    <h1>Merhaba Dünya!</h1>
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — Network & Console Logger</title>
+  <style>
+    :root{
+      --bg:#f7f8fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#0b74da;
+      --maxw:900px;
+    }
+    body{
+      font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: var(--bg);
+      color:#111827;
+      margin:0;
+      padding:32px;
+      display:flex;
+      justify-content:center;
+    }
+    .card{
+      width:100%;
+      max-width:var(--maxw);
+      background:var(--card);
+      border-radius:12px;
+      box-shadow:0 6px 24px rgba(15,23,42,0.08);
+      padding:28px;
+    }
+    h1{ margin:0 0 6px 0; font-size:1.6rem; }
+    .meta{ color:var(--muted); margin-bottom:18px; }
+    h2{ margin-top:22px; font-size:1.05rem; }
+    p{ line-height:1.6; color:#111827; }
+    ul{ margin-left:1.05rem; color:#111827; }
+    code{ background:#f3f4f6; padding:0 6px; border-radius:4px; }
+    .note{ margin-top:18px; color:var(--muted); font-size:0.95rem; }
+    a{ color:var(--accent); text-decoration:none; }
+    footer{ margin-top:28px; color:var(--muted); font-size:0.9rem; }
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <header>
+      <h1>Privacy Policy for Network &amp; Console Logger</h1>
+      <div class="meta">
+        <strong>Last updated:</strong> November 25, 2025 (25 Kasım 2025)
+      </div>
+    </header>
+
+    <section>
+      <h2>1. Data Collection</h2>
+      <p>
+        Network &amp; Console Logger <strong>does not collect, store, transmit, or share any personal information</strong>.
+        All network and console logs captured by the extension remain entirely on the user's local device.
+      </p>
+      <p>
+        The extension has <strong>no backend server</strong>, and <strong>no data is ever sent outside your machine</strong>
+        unless you explicitly export or download logs yourself.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Permissions Used</h2>
+      <p>The extension requires the following permissions solely to provide its core functionality:</p>
+      <ul>
+        <li><strong>webRequest</strong> – to capture and display network requests in real time</li>
+        <li><strong>tabs</strong> – to associate logs with the correct browser tab</li>
+        <li><strong>storage</strong> – to store your extension settings locally</li>
+        <li><strong>downloads</strong> – to allow exporting logs to a file on your device</li>
+        <li><strong>&lt;all_urls&gt;</strong> – to enable logging activity from any site you choose</li>
+      </ul>
+      <p>These permissions are used <em>only</em> for logging and UI purposes and <strong>not</strong> for collecting or sending personal data.</p>
+    </section>
+
+    <section>
+      <h2>3. Local-Only Operation</h2>
+      <p>
+        All operations are performed within your browser. No data is uploaded, synchronized, or transmitted to any external service
+        by the extension. When you export or download logs, that action is initiated by you and produces a file on your device.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Contact</h2>
+      <p>
+        For questions or support, contact: <a href="mailto:your-email@example.com">your-email@example.com</a>.
+        Replace this address with your preferred contact email.
+      </p>
+    </section>
+
+    <div class="note">
+      <strong>Note:</strong> If you would like a Turkish translation of this policy or a version formatted for Chrome Web Store submission, I can provide that as well.
+    </div>
+
+    <footer>
+      &copy; 2025 Network &amp; Console Logger — <em>All functionality runs locally in your browser.</em>
+    </footer>
+  </main>
+</body>
 </html>
